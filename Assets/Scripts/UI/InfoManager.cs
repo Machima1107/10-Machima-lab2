@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class InfoManager : MonoBehaviour
 {
+    public static InfoManager instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class MainUI : MonoBehaviour
 {
+    public static MainUI instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
