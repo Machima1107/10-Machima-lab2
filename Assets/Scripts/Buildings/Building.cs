@@ -9,6 +9,9 @@ public class Building : Structure
     [SerializeField] private Transform rallyPoint;
     public Transform RallyPoint { get { return rallyPoint; } }
 
+    [SerializeField] private Transform rallyPoint1;
+    public Transform RallyPoint1 { get { return rallyPoint1; } }
+
     [SerializeField] private GameObject[] unitPrefabs;
 
     [SerializeField] private List<Unit> recruitList = new List<Unit>();
@@ -29,6 +32,9 @@ public class Building : Structure
     {
         if (Input.GetKeyDown(KeyCode.G))
             ToCreateUnit(0);
+
+        if (Input.GetKeyDown(KeyCode.H))
+            ToCreateUnit(1);
 
         if ((recruitList.Count > 0) && (recruitList[0] != null))
         {
