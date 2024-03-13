@@ -5540,6 +5540,10 @@ PrefabInstance:
       value: Headquarter
       objectReference: {fileID: 0}
     - target: {fileID: 6960090231258517719, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
+      propertyPath: curHP
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960090231258517719, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
       propertyPath: faction
       value: 
       objectReference: {fileID: 1785930992}
@@ -6575,7 +6579,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 600}
+  m_SizeDelta: {x: 600, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1598265564
 MonoBehaviour:
