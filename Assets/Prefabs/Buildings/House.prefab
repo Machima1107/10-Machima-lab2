@@ -67,6 +67,8 @@ MonoBehaviour:
   curUnitProgress: 0
   curUnitWaitTime: 0
   isFunctional: 0
+  isHQ: 0
+  intoTheGround: 5
 --- !u!54 &1400576123560923808
 Rigidbody:
   m_ObjectHideFlags: 0
