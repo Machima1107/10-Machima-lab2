@@ -13,6 +13,7 @@ public class FindBuildingSite : MonoBehaviour
     [SerializeField]
     private MeshRenderer planeRdr;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,12 +25,6 @@ public class FindBuildingSite : MonoBehaviour
         planeRdr.material.color = Color.green;
 
         CanBuild = true;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void SetCanBuild(bool flag)

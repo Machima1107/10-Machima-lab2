@@ -448,7 +448,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 132963966}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &132963966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1190,7 +1202,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 600}
+  m_SizeDelta: {x: 600, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &267411777
 MonoBehaviour:
@@ -1216,102 +1228,6 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!1 &288966066 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-  m_PrefabInstance: {fileID: 1268397033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &288966067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288966066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c33e5f38251cc4469a96d916818e558, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  unitName: 
-  unitPic: {fileID: 0}
-  curHP: 0
-  maxHP: 100
-  moveSpeed: 5
-  minWpnDamage: 0
-  maxWpnDamage: 0
-  armour: 0
-  visualRange: 0
-  weaponRange: 0
-  state: 0
-  faction: {fileID: 0}
-  selectionVisual: {fileID: 0}
-  unitCost:
-    food: 0
-    wood: 0
-    gold: 0
-    stone: 0
-  unitWaitTime: 0.1
-  isBuilder: 0
-  builder: {fileID: 0}
---- !u!114 &288966068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288966066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0dbc4bc15c6a7c4590cc04ff7a5f968, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!136 &288966069
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288966066}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!195 &288966070
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288966066}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 4
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1 &302951444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,7 +2470,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 730588517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &730588517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2697,87 +2625,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755548749}
   m_CullTransparentMesh: 1
---- !u!1001 &756685868
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 186328, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_Name
-      value: Soldier
-      objectReference: {fileID: 0}
-    - target: {fileID: 186328, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.0000009536743
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.066821836
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.99776495
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -172.337
-      objectReference: {fileID: 0}
-    - target: {fileID: 427352, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6675312214065408887, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: armour
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6675312214065408887, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: unitPic
-      value: 
-      objectReference: {fileID: 21300000, guid: f80a2360b2e2c5a4c8f618f010859508, type: 3}
-    - target: {fileID: 6675312214065408887, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: visualRange
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6675312214065408887, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: weaponRange
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6675312214065408887, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
-      propertyPath: maxWpnDamage
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
 --- !u!1 &812528735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2965,7 +2812,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 822019545}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &822019545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3826,7 +3685,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 997863868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &997863868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4570,7 +4441,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1152079457}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1152079457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4609,99 +4492,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152079454}
   m_CullTransparentMesh: 1
---- !u!1001 &1268397033
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_Name
-      value: Mage
-      objectReference: {fileID: 0}
-    - target: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_TagString
-      value: Unit
-      objectReference: {fileID: 0}
-    - target: {fileID: 424960, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 424960, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -11.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.010927025
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.99994034
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 178.748
-      objectReference: {fileID: 0}
-    - target: {fileID: 453744, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9572824, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 6a8a227e58fa93f4abf6b3e8c0050ceb, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 288966068}
-    - targetCorrespondingSourceObject: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 288966067}
-    - targetCorrespondingSourceObject: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 288966070}
-    - targetCorrespondingSourceObject: {fileID: 128380, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 288966069}
-  m_SourcePrefab: {fileID: 100100000, guid: fc08a7273901d9542bae00bf451ae1ab, type: 3}
 --- !u!1 &1301992564
 GameObject:
   m_ObjectHideFlags: 0
@@ -4915,7 +4705,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1304589260}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1304589260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5218,7 +5020,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1341500136}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1341500136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5488,7 +5302,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1366432998}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1366432998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5562,7 +5388,7 @@ PrefabInstance:
     - target: {fileID: 6960090231258517719, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
       propertyPath: unitPrefabs.Array.data[1]
       value: 
-      objectReference: {fileID: 288966066}
+      objectReference: {fileID: 128380, guid: 6a5cec40b78222f409e39ae60465591f, type: 3}
     - target: {fileID: 8257956958184777111, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5606,92 +5432,14 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2234575395607235909, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1434504577}
-    - targetCorrespondingSourceObject: {fileID: 2234575395607235909, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1434504576}
-    - targetCorrespondingSourceObject: {fileID: 2234575395607235909, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1434504575}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
---- !u!1 &1434504574 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2234575395607235909, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
-  m_PrefabInstance: {fileID: 1434504573}
-  m_PrefabAsset: {fileID: 0}
---- !u!208 &1434504575
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434504574}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 9, y: 5, z: 9}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 5, z: 3.2}
-  m_TimeToStationary: 0.5
---- !u!54 &1434504576
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434504574}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
---- !u!65 &1434504577
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434504574}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 22, y: 10, z: 22}
-  m_Center: {x: 0, y: 5, z: 3.2}
 --- !u!114 &1434504578 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6960090231258517719, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
   m_PrefabInstance: {fileID: 1434504573}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434504574}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 198207549e7247a49a8a1bd831563ca3, type: 3}
@@ -6169,7 +5917,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1516372189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1516372189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6364,7 +6124,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1548395874}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91701652}
+        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+        m_MethodName: CreateBuildingButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1548395874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8544,6 +8316,9 @@ MonoBehaviour:
   stone: 200
   aliveUnits: []
   aliveBuildings: []
+  unitsParent: {fileID: 0}
+  buildingsParent: {fileID: 0}
+  ghostBuildingParent: {fileID: 0}
 --- !u!1001 &2042867520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9274,8 +9049,6 @@ SceneRoots:
   - {fileID: 657602432}
   - {fileID: 8843268620444606638}
   - {fileID: 7071353903573999001}
-  - {fileID: 756685868}
-  - {fileID: 1268397033}
   - {fileID: 1441195071}
   - {fileID: 1434504573}
   - {fileID: 4117044555223871442}

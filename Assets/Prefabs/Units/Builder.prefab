@@ -1408,7 +1408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &472214
 Transform:
   m_ObjectHideFlags: 0
@@ -1632,15 +1632,16 @@ GameObject:
   - component: {fileID: 9572824}
   - component: {fileID: -3705500761787877475}
   - component: {fileID: -3599337304128466446}
+  - component: {fileID: 8871413835168819332}
   - component: {fileID: 6754837245559642244}
   - component: {fileID: -1702463475713743621}
   m_Layer: 6
-  m_Name: Mage
+  m_Name: Builder
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &453744
 Transform:
   m_ObjectHideFlags: 0
@@ -1683,7 +1684,7 @@ Animator:
   m_GameObject: {fileID: 128380}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9b5f3dc79387670409bc8aac8597ddd2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6a8a227e58fa93f4abf6b3e8c0050ceb, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1739,6 +1740,29 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &8871413835168819332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 987c928794b0cc84a85199252a80d673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toBuild: 0
+  showGhost: 0
+  buildingList:
+  - {fileID: 2234575395607235909, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
+  - {fileID: 2234575395607235909, guid: 75fb58065a25c474081f92b9a4c9b4d8, type: 3}
+  ghostBuildingList:
+  - {fileID: 2234575395607235909, guid: e163838ba35de394398900f3a53c1afb, type: 3}
+  - {fileID: 2234575395607235909, guid: 668480818435f954190f87a415a21b39, type: 3}
+  newBuilding: {fileID: 0}
+  ghostBuilding: {fileID: 0}
+  inProgressBuilding: {fileID: 0}
 --- !u!114 &6754837245559642244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,16 +1775,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c33e5f38251cc4469a96d916818e558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 2
-  unitName: Magicain
-  unitPic: {fileID: 21300000, guid: fbce225da7a022c469655d472e03fe79, type: 3}
-  curHP: 80
-  maxHP: 80
+  id: 1
+  unitName: Builder
+  unitPic: {fileID: 21300000, guid: e3d4a57ad06fece41b543324aa785b7b, type: 3}
+  curHP: 100
+  maxHP: 100
   moveSpeed: 5
   minWpnDamage: 0
-  maxWpnDamage: 10
+  maxWpnDamage: 12
   armour: 1
-  visualRange: 15
+  visualRange: 20
   weaponRange: 15
   state: 0
   faction: {fileID: 0}
@@ -1771,7 +1795,7 @@ MonoBehaviour:
     gold: 30
     stone: 0
   unitWaitTime: 0.1
-  isBuilder: 0
+  isBuilder: 1
   builder: {fileID: 0}
 --- !u!114 &-1702463475713743621
 MonoBehaviour:
@@ -2766,7 +2790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &424960
 Transform:
   m_ObjectHideFlags: 0
@@ -4414,7 +4438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &457882
 Transform:
   m_ObjectHideFlags: 0

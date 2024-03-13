@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private Camera cam;
-    public Camera Camera { get { return cam; } }
+    public Camera Cam { get { return cam; } }
 
     [Header("Move")]
     [SerializeField] private float moveSpeed;
