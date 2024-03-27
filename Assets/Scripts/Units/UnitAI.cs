@@ -25,7 +25,7 @@ public class UnitAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     // checks for nearby enemies with a sphere cast
@@ -89,6 +89,4 @@ public class UnitAI : MonoBehaviour
             }
         }
     }
-
-
 }
