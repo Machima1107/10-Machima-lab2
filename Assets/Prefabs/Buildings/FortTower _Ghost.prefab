@@ -166,7 +166,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6613120630547745882}
-  - component: {fileID: -672701930727877932}
   - component: {fileID: -7152694126560877019}
   - component: {fileID: 4065063061228961457}
   - component: {fileID: -2945000147143229845}
@@ -195,43 +194,6 @@ Transform:
   - {fileID: 5470781128798567542}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-672701930727877932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8358067725573393576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77bc14558ec55fa4095fcb90e49bc531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  structureName: Fort Tower
-  structurePic: {fileID: 0}
-  curHP: 1
-  maxHP: 100
-  faction: {fileID: 0}
-  selectionVisual: {fileID: 6961651573608219823}
-  spawnPoint: {fileID: 0}
-  rallyPoint: {fileID: 0}
-  rallyPoint1: {fileID: 0}
-  unitPrefabs: []
-  recruitList: []
-  unitTimer: 0
-  curUnitProgress: 0
-  curUnitWaitTime: 0
-  isFunctional: 0
-  isHQ: 0
-  intoTheGround: 5
-  unitLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  targetUnit: {fileID: 0}
-  detectRange: 60
-  shootRange: 50
-  shootDamage: 10
-  state: 0
 --- !u!54 &-7152694126560877019
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1302,11 +1264,6 @@ PrefabInstance:
 --- !u!4 &409857037304858238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6991102941743492440, guid: 78ff4ff2ec7d10547bd3010974c11d75, type: 3}
-  m_PrefabInstance: {fileID: 7256840343391251238}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6961651573608219823 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 299974125856370569, guid: 78ff4ff2ec7d10547bd3010974c11d75, type: 3}
   m_PrefabInstance: {fileID: 7256840343391251238}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7357886002828161194
