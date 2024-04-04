@@ -16,8 +16,8 @@ public class AISupport : MonoBehaviour
     [SerializeField] private List<GameObject> hq = new List<GameObject>();
     public List<GameObject> HQ { get { return hq; } }
 
-    [SerializeField] private List<GameObject> house = new List<GameObject>();
-    public List<GameObject> House { get { return house; } }
+    [SerializeField] private List<GameObject> houses = new List<GameObject>();
+    public List<GameObject> Houses { get { return houses; } }
 
     [SerializeField] private List<GameObject> barracks = new List<GameObject>();
     public List<GameObject> Barracks { get { return barracks; } }
@@ -46,7 +46,7 @@ public class AISupport : MonoBehaviour
         foreach (Unit u in faction.AliveUnits)
         {
             hq.Clear();
-            house.Clear();
+            houses.Clear();
             barracks.Clear();
 
             foreach (Building b in faction.AliveBuildings)
