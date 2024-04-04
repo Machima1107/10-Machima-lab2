@@ -138,6 +138,8 @@ public class Faction : MonoBehaviour
     {
         foreach (Building b in aliveBuildings)
         {
+            if (b == null)
+                continue;
             if (b.IsHQ)
                 return b.SpawnPoint.position;
         }

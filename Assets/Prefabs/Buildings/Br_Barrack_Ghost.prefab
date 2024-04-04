@@ -132,26 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBuild: 0
   modelRdr:
-  - {fileID: 7798236479453015178, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 4205562591128999703, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 5439324507258616945, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 3603438231675641039, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 4454495133930505708, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 8303113537380353168, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 1492652136975699333, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 7959798638773829836, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 8873992304718776495, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 7222995099395097181, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 7127571125512821431, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 5248682993618206372, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 6445986609696403907, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 5537137415882384563, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 7891101783055760741, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 657744003130351909, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 7357886002825808198, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 2963169215956975667, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 3622357334687314176, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
-  - {fileID: 7397639469938788899, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
+  - {fileID: 4118546391815020914}
   planeRdr: {fileID: 2543949395633288492, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
 --- !u!1 &7150738390640368226
 GameObject:
@@ -445,6 +426,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ccb1c3bf907ef74b92d63c996c095f6, type: 3}
+--- !u!23 &4118546391815020914 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2355782, guid: 4ccb1c3bf907ef74b92d63c996c095f6, type: 3}
+  m_PrefabInstance: {fileID: 4118546391817130804}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4118546391817335122 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467558, guid: 4ccb1c3bf907ef74b92d63c996c095f6, type: 3}

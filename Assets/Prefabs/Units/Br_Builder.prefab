@@ -1637,7 +1637,7 @@ GameObject:
   - component: {fileID: 6754837245559642244}
   - component: {fileID: -1702463475713743621}
   m_Layer: 6
-  m_Name: Builder
+  m_Name: Br_Builder
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1777,10 +1777,12 @@ MonoBehaviour:
   - {fileID: 2234575395607235909, guid: 4daca4c4438a7b445a547c10cac6e5b6, type: 3}
   - {fileID: 2234575395607235909, guid: 75fb58065a25c474081f92b9a4c9b4d8, type: 3}
   - {fileID: 8358067725573393576, guid: 68a0404337ce05647a3397a5b554e3c6, type: 3}
+  - {fileID: 1969155283301124342, guid: ee57e9fde97ff964ebc1498133ce0423, type: 3}
   ghostBuildingList:
   - {fileID: 2234575395607235909, guid: e163838ba35de394398900f3a53c1afb, type: 3}
   - {fileID: 2234575395607235909, guid: 668480818435f954190f87a415a21b39, type: 3}
   - {fileID: 8358067725573393576, guid: da3a4a3475adce14392f8b8a4f162b31, type: 3}
+  - {fileID: 1969155283301124342, guid: cade26f3677eedb43b9147fa62e41c7f, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
@@ -4504,7 +4506,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f81a978cf85038f41a62cf0aad8c2981, type: 2}
+  - {fileID: 2100000, guid: 5bcd3942a0f042c4daca7e738a6606f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

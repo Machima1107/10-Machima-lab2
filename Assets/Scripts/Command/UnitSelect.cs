@@ -34,6 +34,9 @@ public class UnitSelect : MonoBehaviour
     private Vector2 oldAnchoredPos;//Box old anchored position
     private Vector2 startPos;//point where mouse is down
 
+    private float timer = 0f;
+    private float timeLimit = 0.5f;
+
     [SerializeField]
     private Unit curEnemy;
 
@@ -79,6 +82,14 @@ public class UnitSelect : MonoBehaviour
         {
             ReleaseSelectionBox(Input.mousePosition);
             TrySelect(Input.mousePosition);
+        }
+
+        timer += Time.deltaTime;
+
+        if (timer >= timeLimit)
+        {
+            timer = 0f;
+            UpdateUI();
         }
     }
 
@@ -148,6 +159,8 @@ public class UnitSelect : MonoBehaviour
         ClearAllSelectionVisual();
         curUnits.Clear();
         curBuilding = null;
+        curResource = null;
+        curEnemy = null;
 
         //Clear UI
         InfoManager.instance.ClearAllInfo();
@@ -254,4 +267,22 @@ public class UnitSelect : MonoBehaviour
     {
         InfoManager.instance.ShowEnemyAllInfo(b);
     }
+
+    private void UpdateUI()
+    {
+        if (curUnits.Count == 1)
+            ShowUnit(curUnits[0]);
+        else if (curEnemy != null)
+            ShowEnemyUnit(curEnemy);
+        else if (curResource != null)
+            ShowResource();
+        else if (curBuilding != null)
+        {
+            if (GameManager.instance.MyFaction.IsMyBuilding(curBuilding))
+                ShowBuilding(curBuilding);//Show building info
+            else
+                ShowEnemyBuilding(curBuilding);
+        }
+    }
+
 }
