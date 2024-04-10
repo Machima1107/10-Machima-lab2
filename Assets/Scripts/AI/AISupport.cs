@@ -45,23 +45,37 @@ public class AISupport : MonoBehaviour
 
         foreach (Unit u in faction.AliveUnits)
         {
+            if (u.gameObject == null)
+                continue;
+
+            if (u.IsBuilder) //if it is a builder
+                builders.Add(u.gameObject);
+
+            if (u.IsWorker) //if it is a worker
+                workers.Add(u.gameObject);
+
+            if (!u.IsBuilder && !u.IsWorker) //if it is a fighter
+                fighters.Add(u.gameObject);
+        }
+            
+        {
             hq.Clear();
             houses.Clear();
             barracks.Clear();
 
             foreach (Building b in faction.AliveBuildings)
             {
-                if (u.gameObject == null)
+                if (b == null)
                     continue;
 
-                if (u.IsBuilder) //if it is a builder
-                    builders.Add(u.gameObject);
+                if (b.IsHQ) //if it is a builder
+                    hq.Add(b.gameObject);
 
-                if (u.IsWorker) //if it is a worker
-                    workers.Add(u.gameObject);
+                if (b.IsHousing) //if it is a worker
+                    houses.Add(b.gameObject);
 
-                if (!u.IsBuilder && !u.IsWorker) //if it is a fighter
-                    fighters.Add(u.gameObject);
+                if (b.IsBarrack) //if it is a fighter
+                    barracks.Add(b.gameObject);
             }
         }
     }

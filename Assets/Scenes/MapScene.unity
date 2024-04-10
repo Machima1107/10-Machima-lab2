@@ -470,7 +470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7214415701964281989, guid: 74516559152a3e447ae9d592abe16ddc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3271,7 +3271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7214415701964281989, guid: 74516559152a3e447ae9d592abe16ddc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6595,7 +6595,6 @@ MonoBehaviour:
   enemyFaction: {fileID: 1620149229}
   factions:
   - {fileID: 1785930992}
-  - {fileID: 1444327216}
   - {fileID: 1620149229}
 --- !u!4 &1441195071
 Transform:
@@ -6617,17 +6616,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7091241826921879107, guid: 7db23ef5c44b9a540a4ee96f6ee238a3, type: 3}
   m_PrefabInstance: {fileID: 2042867520}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1444327216 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -6688821845321549235, guid: 7db23ef5c44b9a540a4ee96f6ee238a3, type: 3}
-  m_PrefabInstance: {fileID: 2042867520}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59fb7dfaa544aa5429f588e89a5a9acd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1445108792
 GameObject:
   m_ObjectHideFlags: 0
@@ -10365,7 +10353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7214415701964281989, guid: 74516559152a3e447ae9d592abe16ddc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
