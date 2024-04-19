@@ -109,4 +109,12 @@ public class CameraController : MonoBehaviour
         Zoom();
         Rotate();
     }
+
+
+    public void FocusOnPosition(Vector3 pos)
+    {
+        transform.position = pos;
+    }
+
+
 }
