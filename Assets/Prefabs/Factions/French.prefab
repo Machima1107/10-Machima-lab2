@@ -80,6 +80,9 @@ GameObject:
   - component: {fileID: 5249697470582333273}
   - component: {fileID: 2843709767869160155}
   - component: {fileID: 216480587641579932}
+  - component: {fileID: -6405203395871543683}
+  - component: {fileID: -187062023595389336}
+  - component: {fileID: 5646836592225752561}
   m_Layer: 0
   m_Name: French
   m_TagString: Untagged
@@ -197,7 +200,7 @@ MonoBehaviour:
   builders: []
   workers: []
   hq: []
-  house: []
+  houses: []
   barracks: []
   faction: {fileID: 0}
 --- !u!114 &2843709767869160155
@@ -232,6 +235,51 @@ MonoBehaviour:
   increasePerWave: 1
   squadSize: 0.5
   timeLimit: 5
+--- !u!114 &-6405203395871543683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327945106215799212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980db8cc95343de4e99f9acc047bdc67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+  rangeFromStartPos: 30
+--- !u!114 &-187062023595389336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327945106215799212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73168517eb80854aaedb9e3ed1d00fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+  rangeFromStartPos: 30
+--- !u!114 &5646836592225752561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327945106215799212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fc8daf9bde3ba4ea1d243ee4b88d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+  rangeFromStartPos: 30
 --- !u!1 &4890388527017725209
 GameObject:
   m_ObjectHideFlags: 0

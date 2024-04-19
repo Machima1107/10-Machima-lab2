@@ -134,6 +134,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7091241826921879107}
   - component: {fileID: -6688821845321549235}
+  - component: {fileID: -5773180824868761534}
+  - component: {fileID: -85381349750476050}
   m_Layer: 0
   m_Name: Britain
   m_TagString: Untagged
@@ -197,3 +199,38 @@ MonoBehaviour:
   unitPrefabs:
   - {fileID: 128380, guid: 6a5cec40b78222f409e39ae60465591f, type: 3}
   - {fileID: 186328, guid: fc83c6b0a6a7d434ab273741566fec07, type: 3}
+--- !u!114 &-5773180824868761534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212244901944237539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb197b3f6426dff48a0ce670745601f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  curUnit: {fileID: 0}
+  curBuilding: {fileID: 0}
+  curResource: {fileID: 0}
+  selectionBox: {fileID: 0}
+  curEnemy: {fileID: 0}
+--- !u!114 &-85381349750476050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212244901944237539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5475bb28a5a7442a89178766abb525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
