@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1400576123560923808}
   - component: {fileID: 6305900314742746841}
   - component: {fileID: 666481328836375271}
+  - component: {fileID: -399660851932353860}
   m_Layer: 7
   m_Name: Br_House
   m_TagString: Building
@@ -135,6 +136,18 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 6, z: 5}
   m_TimeToStationary: 0.5
+--- !u!114 &-399660851932353860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2234575395607235909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca4657119767f243930cf6d9da126e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2969272713549582341
 GameObject:
   m_ObjectHideFlags: 0
