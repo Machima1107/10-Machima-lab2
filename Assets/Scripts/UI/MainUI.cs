@@ -9,6 +9,9 @@ public class MainUI : MonoBehaviour
     private GameObject selectionMarker;
     public GameObject SelectionMarker { get { return selectionMarker; } }
 
+    private Canvas canvas;
+    public Canvas Canvas { get { return canvas; } }
+
     public static MainUI instance;
 
     [SerializeField] private TextMeshProUGUI unitCountText;
@@ -23,6 +26,7 @@ public class MainUI : MonoBehaviour
     void Awake()
     {
         instance = this;
+        canvas = GetComponent<Canvas>();
     }
     // Start is called before the first frame update
     void Start()
@@ -43,5 +47,16 @@ public class MainUI : MonoBehaviour
         woodText.text = faction.Wood.ToString();
         goldText.text = faction.Gold.ToString();
         stoneText.text = faction.Stone.ToString();
+    }
+
+    public Vector3 ScalePosition(Vector3 pos)
+    {
+        Vector3 newPos;
+
+        newPos = new Vector3(pos.x * canvas.transform.localScale.x
+                             , pos.y * canvas.transform.localScale.y
+                             , pos.z * canvas.transform.localScale.z);
+
+        return newPos;
     }
 }
